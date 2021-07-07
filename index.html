@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/ fb# prefix属性: http://ogp.me/ns/ prefix属性#">
+<meta property="og:url" content="https://shattori0320.github.io/jihyou/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="プリン" />
+<meta property="og:description" content="プリン" />
+<meta property="og:site_name" content="プリン" />
+<meta property="og:image" content="./poster2.png" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>プリン</title>
+    <!-- Import the component -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+    
+    <style>
+
+.submit_btn{
+    border: 0px;
+    width:215px;
+    height:105px;
+}
+
+p {
+  text-align:center;
+  margin-top: 380px;
+}
+
+
+dirr {
+  text-align:center;
+}
+    </style>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+  </head>
+  <body>
+  <dirr>
+    <model-viewer
+      reveal="manual"
+      src="./purin.gltf"
+      ios-src="./purin.usdz" 
+      poster="./poster2.png"
+      style="width:360px;height:555px;" 
+      auto-rotate
+      camera-controls
+      exposure= 1 
+      ar
+      shadow-intensity= 1 
+    >
+    <button id="custom-ar-button" slot="ar-button" style=" margin-top: 380px; width:220px; height:105px; border-style:none; background: url(./submit.png) left top no-repeat; background-size:cover; "></button>
+    </model-viewer>
+<font size="1" face="ＭＳ Ｐゴシック,ＭＳ ゴシック">ボタンを押しても反応がない場合は、対応ブラウザではありません。iOS SafariもしくはAndroid Chromeの最新バージョンをご利用ください。その他のアプリ内ブラウザやPCブラウザには対応していません。<br></font>
+
+    </dirr>
+    
+    
+    
+    
+      <script type="text/javascript">
+             
+  </script>
+    
+      </body>
+</html>
